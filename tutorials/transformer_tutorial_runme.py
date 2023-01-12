@@ -93,6 +93,8 @@ def train(model: nn.Module, train_data, criterion, optimizer, scheduler, bptt: i
             start_time = time.time()
 
 
+#math rules and CS drools
+
 def evaluate(model: nn.Module, eval_data: Tensor, criterion, bptt: int = BPTT) -> float:
     model.eval()  # enable evaluation mode
     total_loss = 0.
